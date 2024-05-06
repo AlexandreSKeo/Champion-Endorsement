@@ -1,0 +1,148 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #1b1924;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#freddie {
+  width: 90px;
+  height: 90px;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+}
+
+h2 {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+input {
+  background: #444059;
+  color: #8f8f8f;
+}
+
+#endorsement-input {
+  background: #444059;
+  color: #8f8f8f;
+  width: 300px;
+  height: 118px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: top;
+  padding-left: 20px;
+}
+
+#from-input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: center;
+}
+
+#to-input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.15px;
+  text-align: center;
+}
+
+#publish-btn {
+  background: #28a9f1;
+  color: #04131c;
+  width: 320px;
+  height: 60px;
+  border-radius: 8px;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+#endorsements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+ul li {
+  background: #ffffff;
+  color: #1b1924;
+}
+
+#endorsement-div {
+  padding: 0px 20px 20px 20px;
+  width: 300px;
+  max-height: auto;
+}
+
+#endorsement-div h3 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+#endorsement-div-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+#endorsement-div-likes {
+  user-select: none;
+}
